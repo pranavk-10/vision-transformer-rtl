@@ -286,15 +286,5 @@ def predict_and_plot_grid(model,
 
 predict_and_plot_grid(model, test_dataset, classes=train_dataset.classes, grid_size=3)
 
-from google.colab import drive
-drive.mount('/content/drive')
 
-!git config --global user.name "pranavk-10 "
-!git config --global user.email "mr.pranavkamble10@gmail.com"
-
-!git clone https://github.com/pranavk-10/vision-transformer-rtl.git
-
-!cp /content/Vision_Transformer.ipynb /content/vision-transformer-rtl/software/
-
-!ls /content
 
